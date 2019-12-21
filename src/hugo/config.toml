@@ -1,0 +1,58 @@
+baseURL = "/"
+theme = "hello-friend-ng"
+
+title = "Fabian Grutsch"
+
+# Sets metadata in document's head and footer link
+[author]
+  name = "Fabian Grutsch"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Metadata mostly used in document's head
+  description = "Homepage and blog by Fabian Grutsch"
+  keywords = "homepage, blog, development, programming, scala, akka, playframework, fp, aws"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "light"
+
+  # Generate favicon head tags
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText = "$ cd /Users/fgrutsch"
+    logoHomeLink = "/"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/f_grutsch"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/fabian-grutsch-aaa860199"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/fgrutsch"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://stackoverflow.com/users/5306061/fabian-grutsch"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
