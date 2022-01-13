@@ -50,7 +50,7 @@ const about = {
   imageLink: require("../editable-stuff/fabiangrutsch.jpg"),
   imageSize: 375,
   message:
-    "Hey! I am Fabian Grutsch and currently working as a Backend Engineer at Firstbird where we are building a SaaS referral platform using Scala, Akka, Playframework, and AWS.<br/><br/>Currently, I am living in my hometown which is based in Tyrol, Austria. As Firstbird has its HQ in Vienna (Austria) I am working for more than 4 years now from a Coworking Space.<br/><br/>I love nature and adventure, especially hiking, ski touring, mountain biking, and exploring the Alps. Other than that I am also interested in contributing to open source projects, professionally and in private."
+    "Hey! I am Fabian Grutsch and currently working as a Backend Engineer at Firstbird where we are building a SaaS referral platform using Scala, Akka, Playframework, and AWS.<br/><br/>Currently, I am living in my hometown which is based in Tyrol, Austria. As Firstbird has its HQ in Vienna (Austria) I am working for more than 5 years now from a Coworking Space.<br/><br/>I love nature and adventure, especially hiking, ski touring, mountain biking, and exploring the Alps. Other than that I am also interested in contributing to open source projects, professionally and in private."
 };
 
 // PROJECTS SECTION
@@ -64,7 +64,7 @@ const repos = {
   gitHubUsername: "fgrutsch", //i.e."johnDoe12Gh"
   reposLength: 0,
   specificRepos: [
-    "emergence", "akka-persistence-mapdb"
+    "emergence", "akka-persistence-mapdb", "sbt-swagger-ui"
   ]
 };
 
