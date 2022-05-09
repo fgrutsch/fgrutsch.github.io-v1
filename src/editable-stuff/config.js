@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Fabian",
   middleName: "",
   lastName: "Grutsch",
-  message: " Scala | SBT | Akka | Play Framework | Cats | FP | AWS ",
+  message: " Scala | SBT | FP | Cats | Akka | Play Framework | AWS ",
   icons: [
     {
       image: "fa-github",
@@ -18,14 +18,6 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/fabian-grutsch-aaa860199",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://twitter.com/f_grutsch",
-    },
-    {
-      image: "fa-stack-overflow",
-      url: "https://stackoverflow.com/users/5306061/fabian-grutsch"
     }
   ]
 };
@@ -50,7 +42,7 @@ const about = {
   imageLink: require("../editable-stuff/fabiangrutsch.jpg"),
   imageSize: 375,
   message:
-    "Hey! I am Fabian Grutsch and currently working as a Senior Backend Engineer at Firstbird where we are building a SaaS referral platform using Scala, Akka, Playframework, and AWS.<br/><br/>Currently, I am living in my hometown which is based in Tyrol, Austria. As Firstbird has its HQ in Vienna (Austria) I am working for more than 5 years now from a Coworking Space.<br/><br/>I love nature and adventure, especially hiking, ski touring, mountain biking, and exploring the Alps. Other than that I am also interested in contributing to open source projects, professionally and in private."
+    "Hey! I am Fabian Grutsch and currently working as a Senior Backend Engineer at Firstbird where we are building a SaaS referral platform using Scala, Cats, Akka, Playframework, and AWS.<br/><br/>Right now I am based in my hometown (Tyrol, Austria) where I am working for more than 5 years now already remotely from a Coworking space.<br/><br/>I love nature and adventure, especially hiking, ski touring, mountain biking, and exploring the Alps. Other than that I am also interested in contributing to open source projects, professionally and in private."
 };
 
 // PROJECTS SECTION
